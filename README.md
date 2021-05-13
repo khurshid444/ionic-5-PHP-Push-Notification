@@ -9,7 +9,7 @@ This tutorial mainly focuses, how to setup your own Push Notification Server usi
 Before starting this automation work, please make simple working Ionic 5 blank application and proceed further.
 Once the basic Starter app is created. Install the required plugin from the below command.
 
-    ionic cordova plugin add phonegap-plugin-push
+    ionic cordova plugin add phonegap-plugin-push  --variable SENDER_ID="XXXXXXXXXX"
     npm install @ionic-native/push
    
  And import the necessary dependency in app.module.ts and the home.page.ts
