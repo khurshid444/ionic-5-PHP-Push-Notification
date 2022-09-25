@@ -11,6 +11,9 @@ Once the basic Starter app is created. Install the required plugin from the belo
 
     ionic cordova plugin add phonegap-plugin-push  --variable SENDER_ID="XXXXXXXXXX"
     npm install @ionic-native/push
+    *Note Phonegap push plugin is deprecated*
+    So refer this plugin rest all mothod is same
+    https://github.com/havesource/cordova-plugin-push
    
  And import the necessary dependency in app.module.ts and the home.page.ts
   
